@@ -1,0 +1,11 @@
+-- excluir registros de uma tabela
+-- como fazer ? sintaxe:
+-- DELETE FROM nome_tabela WHERE coluna_selecionada = valor;
+-- obs: usar o where para excluir um registro especifico, se não vai exluir todos os registros
+
+-- se eu precisar excluir todos os registros de uma tabela ?
+-- remove todas as linhas de uma tabela sem registrar as exclusões de linhas individuais
+-- truncate table e como a istrução delete sem usar a clausula WHERE
+-- Entretanto o truncate table e mais rapida e utiliza menos recursos do sistema e log de transações
+-- os dois comandos so excluem os dados da tabela não a tabela
+-- sintaxe: TRUNCATE TABLE nome_tabela;
